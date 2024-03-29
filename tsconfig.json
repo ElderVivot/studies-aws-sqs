@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "preserveConstEnums": true,
+        "strictNullChecks": false,
+        "sourceMap": true,
+        "allowJs": true,
+        "target": "ES2022",
+        "outDir": ".build",
+        "moduleResolution": "node",
+        "skipLibCheck": true,
+        "lib": [
+            "ES2022"
+        ],
+        "rootDir": "./",
+        "typeRoots": [
+            "./node_modules/@types"
+        ]
+    }
+}
